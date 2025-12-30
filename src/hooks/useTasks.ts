@@ -150,4 +150,3 @@ export function useTasks(): UseTasksState {
   return { tasks, loading, error, derivedSorted, metrics, lastDeleted, addTask, updateTask, deleteTask, undoDelete, clearLastDeleted };
 }
 
-
